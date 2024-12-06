@@ -1,0 +1,131 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa; /* Color de fondo gris suave */
+    color: #4e5d6c; /* Color de texto oscuro pero suave */
+    margin: 0;
+}
+
+/* Contenedor principal de usuarios */
+.usuarios-index {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Título de la página */
+.usuarios-index h1 {
+    color: #003b5c; /* Azul oscuro elegante */
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1.5em;
+    border-bottom: 3px solid #1976d2; /* Línea inferior para mayor énfasis */
+    padding-bottom: 10px;
+}
+
+/* Botón de creación */
+.usuarios-index .btn-success {
+    background-color: #1976d2; /* Azul intermedio */
+    border-color: #1976d2;
+    padding: 12px 25px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.usuarios-index .btn-success:hover {
+    background-color: #1565c0; /* Azul más oscuro */
+    border-color: #1565c0;
+}
+
+/* Estilos de la tabla GridView */
+.table {
+    background-color: #f9f9f9; /* Fondo muy suave para la tabla */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2em;
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Espaciado entre filas */
+}
+
+.table th, .table td {
+    color: #2c3e50; /* Color de texto más oscuro para la legibilidad */
+    padding: 15px;
+    text-align: center;
+}
+
+/* Cabeceras de la tabla con color gris */
+.table th {
+    background-color: #fffcfc; /* Gris suave para las cabeceras */
+    color: #333; /* Texto gris oscuro para contraste */
+    font-weight: 600; /* Peso de fuente más pesado */
+    font-size: 1.1rem; /* Aumenta el tamaño de la fuente */
+    text-transform: uppercase; /* Texto en mayúsculas para títulos más formales */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.table td {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0; /* Bordes sutiles para las celdas */
+}
+
+.table td:first-child, .table th:first-child {
+    border-left: 0;
+}
+
+.table td:last-child, .table th:last-child {
+    border-right: 0;
+}
+
+/* Estilos de las acciones en la tabla */
+.table .action-column a {
+    color: #007bb5; /* Azul más suave para las acciones */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.table .action-column a:hover {
+    color: #005c8e; /* Azul más oscuro al pasar el ratón */
+}
+
+/* Hover sobre las filas de la tabla */
+.table tr:hover {
+    background-color: #e3f2fd; /* Azul claro al pasar el ratón sobre la fila */
+    cursor: pointer;
+}
+
+/* Agregar margen superior a la tabla */
+.table-responsive {
+    margin-top: 1.5em;
+}
+
+/* Estilos para la paginación */
+.pagination {
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.pagination li a {
+    color: #007bb5;
+    font-weight: 600;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pagination li a:hover {
+    background-color: #1976d2;
+    color: white;
+}
+
+.pagination .active a {
+    background-color: #1976d2;
+    color: white;
+}

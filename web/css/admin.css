@@ -1,0 +1,53 @@
+.admin-index {
+    text-align: center;
+    padding: 20px;
+}
+
+.welcome-message h2 {
+    color: #2c3e50;
+    font-size: 28px;
+}
+
+.welcome-message p {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+.admin-dashboard {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.dashboard-item {
+    width: 200px;
+    padding: 20px;
+    margin: 0 15px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.dashboard-item:hover {
+    transform: scale(1.05);
+}
+
+.dashboard-icon img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.dashboard-text a {
+    display: block;
+    font-size: 18px;
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dashboard-text a:hover {
+    color: #3498db;
+}

@@ -1,0 +1,35 @@
+/* Estilos para el pie de página */
+.footer {
+    background-color: #343a40; /* Fondo oscuro para mejor contraste */
+    color: white; /* Texto blanco para legibilidad */
+    text-align: center; /* Alinear texto al centro */
+    padding: 20px 0; /* Espaciado vertical */
+    font-size: 16px; /* Tamaño de fuente más adecuado */
+    margin-top: 30px; /* Separación del contenido principal */
+    border-top: 1px solid #555; /* Borde superior sutil para separar */
+}
+
+/* Estilo para el texto */
+.footer-text {
+    margin-bottom: 0; /* Eliminar el margen inferior */
+    font-family: 'Arial', sans-serif; /* Fuente limpia y moderna */
+}
+
+/* Efecto para enlaces */
+.footer-text a {
+    color: #ffcc00; /* Color dorado para enlaces */
+    text-decoration: none; /* Eliminar subrayado por defecto */
+    font-weight: bold; /* Hacer los enlaces más llamativos */
+}
+
+.footer-text a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+    color: #ffc107; /* Cambio de color al pasar el mouse */
+}
+
+/* Asegurar que el pie de página ocupe toda la pantalla si es necesario */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
